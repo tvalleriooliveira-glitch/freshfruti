@@ -71,7 +71,7 @@ function FreshFrutiLanding() {
           <p className="inline-block bg-mango text-ink text-[11px] font-mono font-medium uppercase tracking-[0.18em] border-2 border-ink rounded-full px-3 py-1">
             Feira de Vila Andrade · SP
           </p>
-          <h1 className="font-display font-black text-[clamp(2.6rem,10vw,4rem)] leading-[0.92] tracking-tight mt-4 max-w-[14ch]">
+          <h1 className="font-display font-extrabold text-[clamp(2.4rem,9vw,3.6rem)] leading-[1.02] tracking-[-0.03em] mt-4 max-w-[14ch]">
             A HORTA NA SUA PORTA
           </h1>
           <p className="text-pretty text-muted-foreground text-[15px] mt-4 max-w-[38ch]">
@@ -126,7 +126,7 @@ function FreshFrutiLanding() {
           <p className="font-mono text-xs uppercase tracking-[0.18em] text-muted-foreground">
             (a)
           </p>
-          <h2 className="font-display font-black text-3xl tracking-tight">
+          <h2 className="font-display font-bold text-[1.75rem] tracking-[-0.02em]">
             Escolha da feira
           </h2>
         </div>
@@ -163,7 +163,7 @@ function FreshFrutiLanding() {
         <p className="font-mono text-xs uppercase tracking-[0.18em] text-sprout">
           (b)
         </p>
-        <h2 className="font-display font-black text-3xl tracking-tight">
+        <h2 className="font-display font-bold text-[1.75rem] tracking-[-0.02em]">
           Como funciona
         </h2>
         <div className="mt-6 space-y-4">
@@ -186,7 +186,7 @@ function FreshFrutiLanding() {
         <p className="font-mono text-xs uppercase tracking-[0.18em] text-muted-foreground">
           (c)
         </p>
-        <h2 className="font-display font-black text-3xl tracking-tight">
+        <h2 className="font-display font-bold text-[1.75rem] tracking-[-0.02em]">
           Onde entregamos
         </h2>
         <a href={MAPS_LINK} target="_blank" rel="noopener noreferrer" className="block mt-5">
@@ -212,7 +212,7 @@ function FreshFrutiLanding() {
         <p className="font-mono text-xs uppercase tracking-[0.18em] text-muted-foreground">
           (d)
         </p>
-        <h2 className="font-display font-black text-3xl tracking-tight">
+        <h2 className="font-display font-bold text-[1.75rem] tracking-[-0.02em]">
           Fale com a gente
         </h2>
         <p className="text-pretty text-muted-foreground text-[15px] mt-3 max-w-[36ch]">
@@ -241,7 +241,7 @@ function FreshFrutiLanding() {
 
       {/* Footer */}
       <footer className="px-4 pt-6 pb-28 text-center">
-        <span className="font-display font-black text-lg">FreshFruti</span>
+        <span className="font-display font-bold text-lg tracking-[-0.01em]">FreshFruti</span>
         <p className="text-[11px] text-muted-foreground mt-1">
           hortifruti de bairro · desde a roça até sua porta
         </p>
@@ -280,7 +280,7 @@ function CategoryCard({
       }`}
     >
       <span className="font-mono text-[11px] text-leaf">{n}</span>
-      <span className="font-display font-black text-2xl tracking-tight">
+      <span className="font-display font-bold text-2xl tracking-[-0.02em]">
         {title}
       </span>
       <span className="text-[12px] text-muted-foreground">{desc}</span>
@@ -291,7 +291,7 @@ function CategoryCard({
 function StepCard({ n, title, desc }: { n: string; title: string; desc: string }) {
   return (
     <div className="bg-cream/10 border-2 border-cream/40 rounded-3xl p-4 flex gap-4 items-center">
-      <span className="font-display font-black text-4xl text-mango leading-none">
+      <span className="font-display font-extrabold text-4xl text-mango leading-none">
         {n}
       </span>
       <div>
