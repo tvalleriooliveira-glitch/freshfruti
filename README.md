@@ -1,14 +1,21 @@
-# Welcome to your Lovable project
+# FreshFruti Landing Page
+
+Lovable, preciso criar uma landing page para o hortifruti "FreshFruti"
+Aqui está o logo. 
+O endereço: R. Fábio Lopes dos Santos Luz, 189 - Vila Andrade, São Paulo - SP, 05724-005
+telefone: 011996663529
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://freshfruti.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/28cd2384-e001-4c1a-96c0-ceeb81232114).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +27,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
