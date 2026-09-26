@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import heroProduce from "@/assets/hero-produce.jpg";
 import deliveryMap from "@/assets/delivery-map.jpg";
-import logoAsset from "@/assets/freshfruti-logo.png.asset.json";
+import logoUrl from "@/assets/freshfruti-logo.png";
 
 const WHATSAPP_NUMBER = "5511996663529";
 const WHATSAPP_DISPLAY = "11 99666-3529";
@@ -47,7 +47,7 @@ function FreshFrutiLanding() {
         <div className="flex items-center justify-between px-4 py-3">
           <div className="flex items-center gap-2.5">
             <img
-              src={logoAsset.url}
+              src={logoUrl}
               alt="FreshFruti"
               width={40}
               height={40}
