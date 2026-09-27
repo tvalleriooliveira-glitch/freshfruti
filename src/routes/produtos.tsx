@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Outlet, useMatchRoute } from "@tanstack/react-router";
 import { CategoryGrid } from "@/components/category-grid";
 
 export const Route = createFileRoute("/produtos")({
@@ -10,4 +10,8 @@ export const Route = createFileRoute("/produtos")({
     { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" },
   ] }), component: Products,
 });
-function Products() { return <main className="mx-auto min-h-[65vh] max-w-7xl px-5 py-14 md:px-10 md:py-20"><p className="mb-2 text-sm font-semibold text-primary">FreshFruti</p><h1 className="text-4xl font-bold text-primary md:text-5xl">Produtos</h1><p className="mb-10 mt-4 max-w-xl leading-relaxed text-muted-foreground">Explore nossas categorias e descubra o que colocar na sua próxima cesta.</p><CategoryGrid /></main>; }
+function Products() {
+  const matchRoute = useMatchRoute();
+  const isCategory = Boolean(matchRoute({ to: "/produtos/$categoria" }));
+  return <>{!isCategory && <main className="mx-auto min-h-[65vh] max-w-7xl px-5 py-14 md:px-10 md:py-20"><p className="mb-2 text-sm font-semibold text-primary">FreshFruti</p><h1 className="text-4xl font-bold text-primary md:text-5xl">Produtos</h1><p className="mb-10 mt-4 max-w-xl leading-relaxed text-muted-foreground">Explore nossas categorias e descubra o que colocar na sua próxima cesta.</p><CategoryGrid /></main>}<Outlet /></>;
+}
