@@ -12,3 +12,5 @@
 - Keep FreshFruti category copy and WhatsApp/contact constants in a shared client-safe module; multiple content routes need one consistent source.
 - Use a shared site shell for navigation and footer, with category-specific content under `/produtos/$categoria`; this makes every category shareable and navigable.
 - Use a public Google Maps address embed and external directions link without an API key; this locates the shop but does not assert a delivery boundary.
+- Keep product photo references beside category descriptions in the shared client-safe catalog; category pages then render consistent item data and imagery.
+- Parent product route must render Outlet for category pages; TanStack nests `/produtos/$categoria` beneath `/produtos`.
