@@ -3,7 +3,7 @@ import { ArrowUpRight, Instagram, MapPin, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/freshfruti-logo.png";
-import { address, categories, mapsLink, phone, whatsapp } from "@/lib/site";
+import { address, categories, instagram, mapsLink, phone, whatsapp } from "@/lib/site";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
