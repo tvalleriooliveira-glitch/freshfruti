@@ -18,6 +18,7 @@ export const directionsLink = `https://www.google.com/maps/dir/?api=1&destinatio
 export const mapEmbed = `https://www.google.com/maps?q=${encodeURIComponent(address)}&output=embed`;
 export const whatsapp = (message = "Olá! Vim pelo site e gostaria de fazer um pedido.") =>
   `https://wa.me/5511996663529?text=${encodeURIComponent(message)}`;
+export const instagram = "https://www.instagram.com/freshfruti/";
 
 export const categories = [
   { slug: "frutas", title: "Frutas", image: frutas, note: "Da estação, cheias de sabor.", items: [
