@@ -1,4 +1,5 @@
 - [x] Aplicar visual Poppins e cores suaves do exemplo em um site com navegação.
 - [x] Criar páginas de produtos por categoria com descrições e links da página inicial.
 - [x] Atualizar bairros de entrega para Vila Andrade, Panamby e Morumbi e vincular Google Maps.
+- [ ] Adicionar fotos atraentes das principais frutas na página Frutas.
 - [ ] Verificar navegação e apresentação em telas pequenas e grandes.
