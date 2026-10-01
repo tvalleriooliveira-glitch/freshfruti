@@ -10,6 +10,12 @@ import laranja from "@/assets/fruit-laranja.jpg";
 import mamao from "@/assets/fruit-mamao.jpg";
 import abacate from "@/assets/fruit-abacate.jpg";
 import abacaxi from "@/assets/fruit-abacaxi.jpg";
+import alface from "@/assets/veg-alface.jpg";
+import couve from "@/assets/veg-couve.jpg";
+import rucula from "@/assets/veg-rucula.jpg";
+import espinafre from "@/assets/veg-espinafre.jpg";
+import agriao from "@/assets/veg-agriao.jpg";
+import acelga from "@/assets/veg-acelga.jpg";
 
 export const phone = "11 99666-3529";
 export const address = "R. Fábio Lopes dos Santos Luz, 189 - Vila Andrade, São Paulo - SP, 05724-005";
@@ -32,12 +38,12 @@ export const categories = [
     { name: "Abacaxi", detail: "Tropical e aromático, ótimo para sobremesas.", image: abacaxi },
   ] },
   { slug: "verduras", title: "Verduras", image: verduras, note: "Folhas para deixar tudo mais fresco.", items: [
-    { name: "Alface", detail: "Folhas leves para saladas do dia a dia." },
-    { name: "Couve", detail: "Vai bem refogada, em caldos ou sucos." },
-    { name: "Rúcula", detail: "Sabor marcante para saladas e sanduíches." },
-    { name: "Espinafre", detail: "Uma opção para refogados e recheios." },
-    { name: "Agrião", detail: "Folhas de sabor intenso para saladas." },
-    { name: "Acelga", detail: "Crocante, ideal para saladas e refogados." },
+    { name: "Alface", detail: "Folhas leves para saladas do dia a dia.", image: alface },
+    { name: "Couve", detail: "Vai bem refogada, em caldos ou sucos.", image: couve },
+    { name: "Rúcula", detail: "Sabor marcante para saladas e sanduíches.", image: rucula },
+    { name: "Espinafre", detail: "Uma opção para refogados e recheios.", image: espinafre },
+    { name: "Agrião", detail: "Folhas de sabor intenso para saladas.", image: agriao },
+    { name: "Acelga", detail: "Crocante, ideal para saladas e refogados.", image: acelga },
   ] },
   { slug: "legumes", title: "Legumes", image: legumes, note: "Cor e sabor para cada receita.", items: [
     { name: "Cenoura", detail: "Crocante, para saladas, sopas e assados." },
