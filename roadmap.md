@@ -3,3 +3,4 @@
 - [x] Atualizar bairros de entrega para Vila Andrade, Panamby e Morumbi e vincular Google Maps.
 - [x] Adicionar fotos atraentes das principais frutas na página Frutas.
 - [x] Verificar navegação e apresentação em telas pequenas e grandes.
+- [x] Adicionar fotos das principais verduras na página Verduras.
