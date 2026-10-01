@@ -9,7 +9,7 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
   return <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur-md">
     <div className="mx-auto flex h-18 max-w-7xl items-center justify-between gap-4 px-5 md:h-22 md:px-10">
-      <Link to="/" aria-label="FreshFruti, início" className="shrink-0"><img src={logo} alt="FreshFruti" className="h-12 w-auto md:h-16" /></Link>
+      <Link to="/" aria-label="FreshFruti, início" className="shrink-0"><img src={logo} alt="FreshFruti" className="h-14 w-auto md:h-20" /></Link>
       <nav aria-label="Navegação principal" className="hidden items-center gap-8 md:flex">
         <Link to="/" activeOptions={{ exact: true }} className="text-sm font-medium hover:text-primary" activeProps={{ className: "text-primary" }}>Início</Link>
         <Link to="/produtos" className="text-sm font-medium hover:text-primary" activeProps={{ className: "text-primary" }}>Produtos</Link>
@@ -34,7 +34,7 @@ export function SiteHeader() {
 export function SiteFooter() {
   return <footer className="border-t border-border bg-secondary/40">
     <div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 md:grid-cols-[1.4fr_1fr_1fr] md:px-10">
-      <div><Link to="/"><img src={logo} alt="FreshFruti" className="h-16 w-auto" /></Link><p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">A horta na sua porta. Hortifruti em Vila Andrade, São Paulo.</p></div>
+      <div><Link to="/"><img src={logo} alt="FreshFruti" className="h-20 w-auto" /></Link><p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">A horta na sua porta. Hortifruti em Vila Andrade, São Paulo.</p></div>
       <div><h2 className="mb-4 font-semibold">Explore</h2><div className="grid gap-3 text-sm text-muted-foreground"><Link to="/produtos" className="hover:text-primary">Produtos</Link><Link to="/entregas" className="hover:text-primary">Entregas</Link><Link to="/contato" className="hover:text-primary">Contato</Link></div></div>
       <div><h2 className="mb-4 font-semibold">Encontre a gente</h2><a className="flex items-start gap-2 text-sm leading-relaxed text-muted-foreground hover:text-primary" href={mapsLink} target="_blank" rel="noopener noreferrer"><MapPin className="mt-0.5 size-4 shrink-0" />{address}</a><a className="mt-3 block text-sm text-muted-foreground hover:text-primary" href="tel:+5511996663529">{phone}</a><a className="mt-3 flex items-center gap-2 text-sm text-muted-foreground hover:text-primary" href={instagram} target="_blank" rel="noopener noreferrer"><Instagram className="size-4 shrink-0" />@freshfruti</a></div>
     </div><div className="border-t border-border px-5 py-5 text-center text-xs text-muted-foreground">© FreshFruti · Feito com frescor em São Paulo</div>
